@@ -1,0 +1,85 @@
+2023-10-03 19:26:04.651 EEST [60772] LOG:  starting PostgreSQL 14.9 on x86_64-apple-darwin22.6.0, compiled by Apple clang version 14.0.3 (clang-1403.0.22.14.1), 64-bit
+2023-10-03 19:26:04.652 EEST [60772] LOG:  listening on IPv6 address "::1", port 5432
+2023-10-03 19:26:04.652 EEST [60772] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2023-10-03 19:26:04.653 EEST [60772] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2023-10-03 19:26:04.659 EEST [60773] LOG:  database system was shut down at 2023-10-03 16:03:01 EEST
+2023-10-03 19:26:04.664 EEST [60772] LOG:  database system is ready to accept connections
+2023-10-03 19:26:12.029 EEST [60782] FATAL:  role "andrey" does not exist
+2023-10-03 19:26:12.195 EEST [60784] FATAL:  role "andrey" does not exist
+2023-10-03 19:26:13.321 EEST [60785] FATAL:  role "andrey" does not exist
+2023-10-03 19:26:13.490 EEST [60788] FATAL:  role "andrey" does not exist
+2023-10-03 19:26:58.373 EEST [60808] FATAL:  role "andrey" does not exist
+2023-10-03 19:26:58.608 EEST [60809] FATAL:  role "andrey" does not exist
+2023-10-03 19:38:40.617 EEST [61932] ERROR:  syntax error at or near "createdb" at character 1
+2023-10-03 19:38:40.617 EEST [61932] STATEMENT:  createdb dental_health_dev;
+2023-10-03 19:40:40.216 EEST [61932] ERROR:  syntax error at or near "createdb" at character 1
+2023-10-03 19:40:40.216 EEST [61932] STATEMENT:  createdb dental_health_dev
+	exit
+	;
+2023-10-03 19:42:13.824 EEST [62605] FATAL:  role "postgresql" does not exist
+2023-10-03 19:42:14.017 EEST [62607] FATAL:  role "postgresql" does not exist
+2023-10-03 19:42:36.496 EEST [62619] FATAL:  role "postgresql" does not exist
+2023-10-03 19:42:36.659 EEST [62620] FATAL:  role "postgresql" does not exist
+2023-10-03 19:42:38.349 EEST [62621] FATAL:  role "postgresql" does not exist
+2023-10-03 19:42:38.509 EEST [62622] FATAL:  role "postgresql" does not exist
+2023-10-03 19:44:07.515 EEST [62657] FATAL:  role "postgresql" does not exist
+2023-10-03 19:44:07.676 EEST [62659] FATAL:  role "postgresql" does not exist
+2023-10-03 19:45:12.191 EEST [62691] FATAL:  role "postgresql" does not exist
+2023-10-03 19:45:12.388 EEST [62693] FATAL:  role "postgresql" does not exist
+2023-10-03 19:45:13.636 EEST [62694] FATAL:  role "postgresql" does not exist
+2023-10-03 19:45:13.800 EEST [62697] FATAL:  role "postgresql" does not exist
+2023-10-03 19:46:21.685 EEST [62728] FATAL:  role "postgresql" does not exist
+2023-10-03 19:46:21.846 EEST [62730] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:06.875 EEST [62774] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:07.041 EEST [62776] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:07.914 EEST [62777] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:08.073 EEST [62778] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:08.977 EEST [62779] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:09.142 EEST [62780] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:09.877 EEST [62781] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:10.051 EEST [62782] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:11.161 EEST [62783] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:11.324 EEST [62784] FATAL:  role "postgresql" does not exist
+2023-10-03 19:48:43.775 EEST [62935] FATAL:  database "andrey" does not exist
+2023-10-03 19:51:05.084 EEST [62988] FATAL:  role "postgresql" does not exist
+2023-10-03 19:51:05.244 EEST [62990] FATAL:  role "postgresql" does not exist
+2023-10-03 19:51:09.050 EEST [62992] FATAL:  role "postgresql" does not exist
+2023-10-03 19:51:09.213 EEST [62993] FATAL:  role "postgresql" does not exist
+2023-10-03 19:51:24.107 EEST [63002] FATAL:  role "postgresql" does not exist
+2023-10-03 19:51:24.295 EEST [63003] FATAL:  role "postgresql" does not exist
+2023-10-03 19:52:06.571 EEST [63027] FATAL:  role "postgresql" does not exist
+2023-10-03 19:52:06.764 EEST [63029] FATAL:  role "postgresql" does not exist
+2023-10-03 19:54:32.113 EEST [63207] ERROR:  role "andrey" cannot be dropped because some objects depend on it
+2023-10-03 19:54:32.113 EEST [63207] DETAIL:  owner of database dental_health_dev
+	owner of database dental_health_test
+2023-10-03 19:54:32.113 EEST [63207] STATEMENT:  DROP USER andrey;
+2023-10-03 20:06:05.834 EEST [63517] FATAL:  role "postgresql" does not exist
+2023-10-03 20:06:06.019 EEST [63519] FATAL:  role "postgresql" does not exist
+2023-10-03 20:06:09.395 EEST [63521] FATAL:  role "postgresql" does not exist
+2023-10-03 20:06:09.563 EEST [63522] FATAL:  role "postgresql" does not exist
+2023-10-03 20:06:40.921 EEST [63537] FATAL:  role "postgresql" does not exist
+2023-10-03 20:06:41.110 EEST [63539] FATAL:  role "postgresql" does not exist
+2023-10-03 20:06:50.589 EEST [63543] FATAL:  role "postgresql" does not exist
+2023-10-03 20:06:50.781 EEST [63544] FATAL:  role "postgresql" does not exist
+2023-10-03 20:07:55.000 EEST [63572] FATAL:  role "postgresql" does not exist
+2023-10-03 20:07:55.172 EEST [63574] FATAL:  role "postgresql" does not exist
+2023-10-03 20:07:59.047 EEST [63575] FATAL:  role "postgresql" does not exist
+2023-10-03 20:07:59.222 EEST [63576] FATAL:  role "postgresql" does not exist
+2023-10-03 20:08:12.719 EEST [63582] FATAL:  role "postgresql" does not exist
+2023-10-03 20:08:12.880 EEST [63583] FATAL:  role "postgresql" does not exist
+2023-10-03 20:08:14.951 EEST [63587] FATAL:  role "postgresql" does not exist
+2023-10-03 20:08:15.111 EEST [63588] FATAL:  role "postgresql" does not exist
+2023-10-03 20:09:20.564 EEST [63623] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:09:20.837 EEST [63624] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:09:38.896 EEST [63635] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:09:39.058 EEST [63636] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:09:41.521 EEST [63637] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:09:41.687 EEST [63638] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:09:42.941 EEST [63639] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:09:43.103 EEST [63640] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:10:25.000 EEST [63658] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:10:25.190 EEST [63660] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:10:36.968 EEST [63669] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:10:37.128 EEST [63670] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:10:43.753 EEST [63671] FATAL:  database "dental_health_dev1" does not exist
+2023-10-03 20:10:43.913 EEST [63672] FATAL:  database "dental_health_dev1" does not exist
