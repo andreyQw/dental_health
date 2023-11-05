@@ -45,3 +45,4 @@
 !.vscode/extensions.json
 
 .env
+logfile
